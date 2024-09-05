@@ -1,0 +1,33 @@
+
+  section.baner3 {
+    width: 100%;
+    height: 48vh;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  section.baner3 > div.baner3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  section.baner3 > div.baner3 > div.box {
+    width: 48%;
+    height: 90%;
+    border-radius: 15px;
+  }
+  section.baner3 > div.baner3 > div.box > a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 15px;
+  }
+  section.baner3 > div.baner3 > div.box > a > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+

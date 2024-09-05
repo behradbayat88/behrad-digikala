@@ -1,0 +1,158 @@
+  section.off {
+    width: 100%;
+    height: 150vh;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  section.off > div.off {
+    width: 98%;
+    height: 100%;
+    border: 1px solid #e0e0e2;
+    border-radius: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-flow: column;
+  }
+  section.off > div.off > div.text {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  section.off > div.off > div.text > img {
+    width: 2%;
+    height: 50%;
+    object-fit: contain;
+    margin-left: 8px;
+  }
+  section.off > div.off > div.text > h2 {
+    line-height: 50px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 500;
+  }
+  section.off > div.off > div.kala {
+    width: 99%;
+    height: 89%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  section.off > div.off > div.kala > * {
+    width: 16%;
+    height: 33.3%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  section.off > div.off > div.kala > div.item0 {
+    border-left: 1px solid #f0f0f1;
+    padding: 1px;
+    border-bottom: 1px solid #f0f0f1;
+  }
+  section.off > div.off > div.kala > div.item00 {
+    border: none;
+    border-bottom: 1px solid #f0f0f1;
+  }
+  section.off > div.off > div.kala > div.item01 {
+    border-left: 1px solid #f0f0f1;
+    padding: 1px;
+    border-bottom: 1px solid #f0f0f1;
+  }
+  section.off > div.off > div.kala > div.item011 {
+    border: none;
+    border-bottom: 1px solid #f0f0f1;
+  }
+  section.off > div.off > div.kala > div.item02 {
+    border-left: 1px solid #f0f0f1;
+  }
+  section.off > div.off > div.kala > div.item022 {
+    border: none;
+  }
+  section.off > div.off > div.kala div.img {
+    width: 95%;
+    height: 70%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  section.off > div.off > div.kala div.img > img {
+    margin-top: 5px;
+    width: 90%;
+    height: 95%;
+    object-fit: contain;
+  }
+  section.off > div.off > div.kala div.num {
+    width: 90%;
+    height: 15%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+  }
+  section.off > div.off > div.kala div.num > div.box {
+    width: 18%;
+    height: 65%;
+    border-radius: 40%;
+    background-color: crimson;
+    text-align: center;
+  }
+  section.off > div.off > div.kala div.num > div.box > p {
+    color: #f0f0f1;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  section.off > div.off > div.kala div.num > div.q {
+    width: 50%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.off > div.off > div.kala div.num > div.q > div.q1 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 5px;
+    text-align: center;
+  }
+  section.off > div.off > div.kala div.num > div.q > div.q1 > p {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    line-height: 23px;
+  }
+  section.off > div.off > div.kala div.num > div.q > img {
+    width: 20%;
+    height: 55%;
+    object-fit: contain;
+  }
+  section.off > div.off > div.kala div.text {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 90%;
+    height: 10%;
+    line-height: 20px;
+  }
+  section.off > div.off > div.kala span {
+    color: rgb(192, 194, 197);
+    font-size: 16px;
+    font-weight: 400;
+    width: 20%;
+    height: 100%;
+    margin-left: 30px;
+    text-decoration: line-through;
+  }
+

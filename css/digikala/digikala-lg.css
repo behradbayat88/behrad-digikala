@@ -1,0 +1,53 @@
+  section.digikala {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 30px;
+  }
+  section.digikala > div.banerdigikala {
+    display: none;
+  }  section.digikala > div.digikala {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+  }
+  section.digikala > div.digikala > div.box {
+    width: 100%;
+    height: 100%;
+    margin: 0 10px;
+    display: flex;
+  }
+  section.digikala > div.digikala > div.box > a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    gap: 8px;
+    text-decoration: none;
+  }
+  section.digikala > div.digikala > div.box > a > div.img {
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+  }
+  section.digikala > div.digikala > div.box > a > div.img > img {
+    width: 80%;
+    height: 100%;
+  }
+  section.digikala > div.digikala > div.box > a > div.img > img.box1 {
+    width: 85%;
+    border-radius: 60%;
+    background-color: #f0f0f1;
+  }
+  section.digikala > div.digikala > div.box > a > h4 {
+    width: 60%;
+    color: black;
+    font-size: small;
+    text-align: center;
+  }
+

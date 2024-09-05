@@ -1,0 +1,232 @@
+  section.forosh {
+    width: 100%;
+    height: 60vh;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  section.forosh > div.forosh {
+    width: 98%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    gap: 15px;
+    border-radius: 15px;
+    border: 1px solid #e0e0e2;
+  }
+  section.forosh > div.forosh > div.text {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 10px;
+  }
+  section.forosh > div.forosh > div.text > div.item {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 335px;
+  }
+  section.forosh > div.forosh > div.text > div.item > img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+  section.forosh > div.forosh > div.text > div.item > h3 {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+  section.forosh > div.forosh > div.text > a {
+    height: 40px;
+    display: flex;
+    text-decoration: none;
+    padding: 8px;
+    color: #19bfd3;
+    line-height: 25px;
+    padding-left: 20px;
+  }
+  section.forosh > div.forosh > div.text > a > SPAN {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  section.forosh > div.forosh > div.kala {
+    width: 100%;
+    height: 85%;
+  }
+  section.forosh > div.forosh > div.kala > div.mySwiper5 {
+    width: 99%;
+    height: 100%;
+    display: flex;
+  }
+  section.forosh > div.forosh > div.kala > div.mySwiper5 > div.swiper-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+  }
+  section.forosh
+    > div.forosh
+    > div.kala
+    > div.mySwiper5
+    > div.swiper-wrapper
+    > div.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+  }
+  section.forosh > div.forosh > div.kala div.circle > div.right {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 100px;
+    border-radius: 60%;
+    left: 0;
+    border: 1px solid #e0e0e2;
+    background-color: #ffffff;
+  }
+  section.forosh > div.forosh > div.kala div.circle > div.right > img {
+    width: 70%;
+    height: 100%;
+    object-fit: contain;
+  }
+  section.forosh > div.forosh > div.kala div.circle > div.left {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 100px;
+    border-radius: 60%;
+    left: -1180px;
+    z-index: 999;
+    border: 1px solid #e0e0e2;
+    background-color: #ffffff;
+  }
+  section.forosh > div.forosh > div.kala div.circle > div.left > img {
+    width: 70%;
+    height: 100%;
+    object-fit: contain;
+  }
+  section.forosh
+    > div.forosh
+    > div.kala
+    > div.mySwiper5
+    > div.swiper-wrapper
+    > div.swiper-slide {
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+  }
+  section.forosh > div.forosh > div.kala div.box {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-flow: row;
+    gap: 2px;
+  }
+  section.forosh > div.forosh > div.kala div.box > div.img {
+    width: 30%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  section.forosh > div.forosh > div.kala div.box > div.img > img {
+    width: 100%;
+    height: 80%;
+    object-fit: contain;
+  }
+  section.forosh > div.forosh > div.kala div.box > div.num {
+    width: 5%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+  }
+  section.forosh > div.forosh > div.kala div.box > div.num > span {
+    font-size: 26px;
+    font-weight: 800;
+    color: rgb(25, 191, 211);
+    padding-right: 5px;
+  }
+  section.forosh > div.forosh > div.kala div.box > div.text {
+    width: 65%;
+    height: 100%;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    border-bottom: 1px solid #e0e0e2;
+  }
+  section.forosh > div.forosh > div.kala div.box > div.text > p {
+    color: rgb(63, 64, 100);
+    font-size: 12px;
+    text-align: start;
+    padding: 20px;
+  }
+  section.forosh > div.forosh > div.kala div.bor1 {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-flow: row;
+    gap: 2px;
+  }
+  section.forosh > div.forosh > div.kala div.bor1 > div.img {
+    width: 30%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  section.forosh > div.forosh > div.kala div.bor1 > div.img > img {
+    width: 100%;
+    height: 80%;
+    object-fit: contain;
+  }
+  section.forosh > div.forosh > div.kala div.bor1 > div.num {
+    width: 5%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+  }
+  section.forosh > div.forosh > div.kala div.bor1 > div.num > span {
+    font-size: 26px;
+    font-weight: 800;
+    color: rgb(25, 191, 211);
+    padding-right: 5px;
+  }
+  section.forosh > div.forosh > div.kala div.bor1 > div.text {
+    width: 65%;
+    height: 100%;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+  }
+  section.forosh > div.forosh > div.kala div.bor1 > div.text > p {
+    color: rgb(63, 64, 100);
+    font-size: 12px;
+    text-align: start;
+    padding: 20px;
+  }
+

@@ -1,0 +1,75 @@
+  section.slider1 {
+    margin: 10px;
+    width: 100%;
+    position: relative;
+  }
+  section.slider1 > div.circle {
+    width: 40px;
+    height: 40px;
+    background-image: url(../../media/icon1.svg);
+    color: #979797;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid lightgrey;
+    background-color: white;
+    border-radius: 50%;
+    left: 70px;
+    top: 50%;
+    transform: translate(-50%, -60%);
+    position: absolute;
+    z-index: 999;
+  }
+  section.slider1 div.swiper-wrapper > div.swiper-slide {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+  }
+  div.swiper-slide > div.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-flow: column;
+  }
+  div.swiper-slide > div.box > a {
+    width: 100%;
+    text-decoration: none;
+    color: #87889f;
+    font-weight: 100;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-flow: column;
+  }
+  div.swiper-slide > div.box > a > div.img {
+    width: 80px;
+    height: 80px;
+    margin-top: 5px;
+    padding: 1px;
+    border-radius: 50%;
+    border: 1px solid blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div.swiper-slide > div.box > a > div.img > img {
+    width: 99%;
+    height: 99%;
+    border-radius: 50%;
+  }
+  div.swiper-slide > div.box > a > h3 {
+    width: 98%;
+    height: 55px;
+    margin: 5px;
+    text-align: center;
+    font-size: 11px;
+  }
+  section.slider1 div.swiper-pagination {
+    display: none;
+  }
+

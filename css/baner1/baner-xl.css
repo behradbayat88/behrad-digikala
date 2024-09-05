@@ -1,0 +1,148 @@
+
+  section.baner1 {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.baner1 > div.baner1 {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  section.baner1 > div.baner1 > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #ebeeee;
+    border-radius: 15px;
+  }
+  section.baner1 > div.baner1 > div.post1 {
+    position: absolute;
+    width: 95%;
+    height: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section.baner1 > div.baner1 > div.post1 > div.box1 {
+    height: 80%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  section.baner1 > div.baner1 > div.post1 > div.box1 > img.item1 {
+    width: 10%;
+    margin: 0 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  section.baner1 > div.baner1 > div.post1 > div.box1 > div.text {
+    width: 20%;
+    margin: 0 25px;
+    background-color: #029a49;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+  }
+  section.baner1 > div.baner1 > div.post1 > div.box1 > div.text > p {
+    color: #ffffff;
+  }
+  section.baner1 > div.baner1 > div.post1 > div.box2 {
+    flex-grow: 10;
+    height: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 5px;
+    padding-left: 20px;
+  }
+  section.baner1 > div.baner1 > div.post1 > div.box2 > div.boox {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 5px;
+    border-radius: 50%;
+    margin-left: 15px;
+  }
+  section.baner1 > div.baner1 > div.post1 > div.box2 > div.boox > div.photo {
+    width: 70px;
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+  }
+  section.baner1
+    > div.baner1
+    > div.post1
+    > div.box2
+    > div.boox
+    > div.photo
+    > div {
+    background-color: crimson;
+    height: 20px;
+    width: 30px;
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    border-radius: 10px;
+  }
+  section.baner1
+    > div.baner1
+    > div.post1
+    > div.box2
+    > div.boox
+    > div.photo
+    > div
+    > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    font-size: 11px;
+    color: #ffffff;
+  }
+  section.baner1
+    > div.baner1
+    > div.post1
+    > div.box2
+    > div.boox
+    > div.photo
+    > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  section.baner1 > div.baner1 > div.post1 > div.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.baner1 > div.baner1 > div.post1 > div.box2 > div.box {
+    width: 140px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+  }
+  section.baner1 > div.baner1 > div.post1 > div.box2 > div.box > p {
+    margin-left: 10px;
+    font-size: 13px;
+    line-height: 40px;
+    color: #029a49;
+  }
+  section.baner1 > div.baner1 > div.post1 > div.box2 > div.box > img {
+    width: 12%;
+  }
+

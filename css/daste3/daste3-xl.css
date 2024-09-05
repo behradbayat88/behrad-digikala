@@ -1,0 +1,126 @@
+  section.daste3 {
+    width: 100%;
+    height: 390px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  section.daste3 > div.daste3 {
+    width: 98%;
+    height: 100%;
+    border-radius: 15px;
+    border: 1px solid #e0e0e2;
+    display: flex;
+  }
+  section.daste3 > div.daste3 > div.box {
+    width: 25%;
+    height: 100%;
+    border-left: 1px solid #e0e0e2;
+    display: flex;
+    flex-flow: column;
+  }
+  section.daste3 > div.daste3 > div.box1 {
+    border-radius: 0 15px 15px 0;
+  }
+  section.daste3 > div.daste3 > div.box4 {
+    border-radius: 15px 0 0 15px;
+  }
+  section.daste3 > div.daste3 > div.box > div.text {
+    width: 100%;
+    height: 70px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+  }
+  section.daste3 > div.daste3 > div.box > div.text > h3 {
+    width: 90%;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  section.daste3 > div.daste3 > div.box > div.text > h4 {
+    width: 90%;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 200;
+    color: #81858b;
+  }
+  section.daste3 > div.daste3 > div.box > div.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 70%;
+    margin: 0 auto;
+  }
+  section.daste3 > div.daste3 > div.box > div.img > a {
+    width: 100%;
+    height: 85%;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  section.daste3 > div.daste3 > div.box > div.img > a > div.img1 {
+    width: 122px;
+    border-left: 1px solid #e0e0e2;
+    border-bottom: 1px solid #e0e0e2;
+    justify-content: center;
+    display: flex;
+  }
+  section.daste3 > div.daste3 > div.box > div.img > a > div.img2 {
+    width: 122px;
+    border-bottom: 1px solid #e0e0e2;
+    justify-content: center;
+    display: flex;
+  }
+  section.daste3 > div.daste3 > div.box > div.img > a > div.img3 {
+    width: 122px;
+    justify-content: center;
+    display: flex;
+  }
+  section.daste3 > div.daste3 > div.box > div.img > a > div.img4 {
+    width: 122px;
+    border-right: 1px solid #e0e0e2;
+    justify-content: center;
+    display: flex;
+  }
+  section.daste3 > div.daste3 > div.box > div.img img {
+    width: 95%;
+    height: 98%;
+    padding: 5px;
+    object-fit: contain;
+  }
+  section.daste3 > div.daste3 > div.box > div.img > div.text {
+    width: 70%;
+    height: 10%;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.daste3 > div.daste3 > div.box > div.img > div.text > a {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+  }
+  section.daste3 > div.daste3 > div.box > div.img > div.text > a > p {
+    width: 80%;
+    height: 100%;
+    font-size: 14px;
+    margin-right: 10px;
+    text-align: end;
+    color: #19bfd3;
+    line-height: 25px;
+  }
+  section.daste3 > div.daste3 > div.box > div.img > div.text > a > img {
+    width: 30px;
+    object-fit: cover;
+    text-align: start;
+  }
+

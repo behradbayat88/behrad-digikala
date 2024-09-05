@@ -1,0 +1,76 @@
+  section.slider2 {
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.slider2 div.swiper-wrapper > div.swiper-slide {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.slider2 div.swiper-slide > a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.slider2 > div.hover {
+    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.slider2 > div.hover > div.right {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 999;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    display: none;
+    align-items: center;
+  }
+  section.slider2 > div.hover > div.left {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    display: none;
+    align-items: center;
+  }
+  section.slider2:hover > div.hover > div.left {
+    display: flex;
+  }
+  section.slider2:hover > div.hover > div.right {
+    display: flex;
+  }
+  section.slider2 div.swiper-button-next {
+    display: none;
+  }
+  section.slider2 div.swiper-button-prev {
+    display: none;
+  }
+
